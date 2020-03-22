@@ -47,4 +47,4 @@ That is to say; you will write the code to best tested in login.js and write tes
 
 Learn more about jest at https://jestjs.io/docs/en/getting-started
 
-Kudos to @bradtraversy
+Special thanks to @bradtraversy
