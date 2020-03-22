@@ -1,0 +1,17 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "testWatch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC"
+}
