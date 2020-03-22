@@ -35,7 +35,7 @@ project-dir/login.js
 project-dir/login.test.js
 ```
 
-That is to say; you will write the code to best tested in login.js and write test cases in login.test.js.
+That is to say; you will write the code to be tested in `login.js` whereas write the test cases in `login.test.js`.
 
 ### Enabling jest
 
