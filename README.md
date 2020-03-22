@@ -8,8 +8,6 @@
 - `$npm test` to run tests manually
 - `$npm testWatch` to automate the test whenever a file changes and/or depending on your custom conditions.
 
-Thanks to @brad-traversy
-
 # 2. Setting up your test enviroment
 
 ### What is Jest
@@ -48,3 +46,5 @@ That is to say; you will write the code to best tested in login.js and write tes
 - Run `$npm test`
 
 Learn more about jest at https://jestjs.io/docs/en/getting-started
+
+Kudos to @bradtraversy
