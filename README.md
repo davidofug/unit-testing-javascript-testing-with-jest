@@ -30,9 +30,10 @@ Jest is node package manager (npm), so we can add it to our project using the no
 
 ### Example filenames:
 
-`project-dir/login.js`
-
-`project-dir/login.test.js`
+```
+project-dir/login.js
+project-dir/login.test.js
+```
 
 That is to say; you will write the code to best tested in login.js and write test cases in login.test.js.
 
@@ -47,4 +48,4 @@ That is to say; you will write the code to best tested in login.js and write tes
 
 Learn more about jest at https://jestjs.io/docs/en/getting-started
 
-Special thanks to @bradtraversy
+Special thanks to @github.com/bradtraversy
