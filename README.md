@@ -6,7 +6,7 @@
 - Change directory  `$cd unit-testing-javascript-testing-with-jest`
 - `$npm install`
 - `$npm test` to run tests manually
-- `$npm testWatch` to automate the test whenever a file changes and/or depending on your custom conditions.
+- `$npm testWatch` to watch files and run tests whenever a file changes.
 
 # 2. Setting up your test enviroment
 
@@ -21,7 +21,7 @@ Jest is node package manager (npm), so we can add it to our project using the no
 - You need node and npm installed, if you don't have them, visit https://nodejs.org website to download and install node LTS for your particular operating system (os).
 
 - Next, initialize a nodejs project. e.g: `$npm init` or `$npm init -y`
-- Add jest package to your node project dev dependencies using the famous `$npm i --save-dev <package-name>` or `$npm install <package-name> --save-dev` if you prefer using yarn then it should be `$yarn add --dev <package-name>`
+- Add jest package to your node project dev dependencies using the famous `$npm i --save-dev <package-name>` or `$npm install --save-dev <package-name>` if you prefer using yarn then it should be `$yarn add --dev <package-name>`
 - So you will do `$npm i --save-dev jest` of `$yarn add --dev jest`
 
 ### Usage:
@@ -48,4 +48,4 @@ That is to say; you will write the code to best tested in login.js and write tes
 
 Learn more about jest at https://jestjs.io/docs/en/getting-started
 
-Special thanks to @github.com/bradtraversy
+Special thanks to @github/bradtraversy
