@@ -23,8 +23,8 @@ Jest is node package manager (npm), so we can add it to our project using the no
 - You need node and npm installed, if you don't have them, visit https://nodejs.org website to download and install node LTS for your particular operating system (os).
 
 - Next, initialize a nodejs project. e.g: `$npm init` or `$npm init -y`
-- Add jest package to your node project dev dependencies using the famous `$npm i <package-name> --save-dev` or `$npm install <package-name> --save-dev` if you prefer using yarn then it should be `$yarn add <package-name> --dev`
-- So you will do `$npm i jest --save-dev` of `$yarn add jest --dev`
+- Add jest package to your node project dev dependencies using the famous `$npm i --save-dev <package-name>` or `$npm install <package-name> --save-dev` if you prefer using yarn then it should be `$yarn add --dev <package-name>`
+- So you will do `$npm i --save-dev jest` of `$yarn add --dev jest`
 
 ### Usage:
 1.  Create a javasript file you may want to test.
@@ -33,6 +33,7 @@ Jest is node package manager (npm), so we can add it to our project using the no
 ### Example filenames:
 
 `project-dir/login.js`
+
 `project-dir/login.test.js`
 
 That is to say; you will write the code to best tested in login.js and write test cases in login.test.js.
